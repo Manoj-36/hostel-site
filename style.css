@@ -1,0 +1,790 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+
+* {
+  scroll-behavior: smooth;
+}
+.load {
+  background-color: black;
+}
+.load-icon {
+  background-color: #000;
+}
+.load-img {
+  margin-top: -70%;
+}
+.load-name {
+  margin-top: -85%;
+  margin-bottom: -10%;
+  text-align: center;
+  font-family: "Teko", sans-serif;
+  font-size: 5rem;
+  color: #f2b100;
+}
+.load-info {
+  margin-left: 35%;
+  font-family: "Teko", sans-serif;
+  font-size: 1rem;
+  width: 30%;
+  background-color: black;
+  border: 2px solid #f2b100;
+  color: #f2b100;
+  margin-bottom: 5%;
+}
+/* .load-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #070707;
+  padding: 10px;
+}
+
+.load-grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+} */
+.start {
+  padding: 0 1% 0 1%;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(97, 241, 97);
+}
+.start1 {
+  padding: 0 1% 0 1%;
+  font-family: "Montserrat", sans-serif;
+  color: crimson;
+}
+.BH {
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(73, 54, 54, 0.55)),
+    url("../pics/mhostel.jpg");
+  position: relative;
+  height: 570px;
+
+  background-size: 100vw 50vw;
+  background-repeat: no-repeat;
+}
+.BH-main {
+  padding-top: 10%;
+}
+.BH-sub-head {
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  letter-spacing: 15px;
+  text-align: center;
+}
+.BH-main-head {
+  font-family: MADE Kenfolg;
+  font-size: 7vw;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 11px;
+  padding-left: 10%;
+}
+.BH-btn {
+  display: flex;
+  justify-content: center;
+}
+.BH-btn-a {
+  cursor: pointer;
+  width: 15%;
+  height: 3vw;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(5, 149, 216);
+}
+/*------------------------------------------------------------- HW section */
+.HW-head {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3vw;
+  text-align: center;
+  /* margin-left: 5%; */
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  border-radius: 10px;
+  background-color: #ebebeb;
+  padding: 30px 90px 30px 90px;
+  margin: 5% 10% 2% 10%;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  align-item: center;
+  border-radius: 5px;
+}
+.HW-pic {
+  width: 5%;
+}
+/* --------------------------------------------------------------Rules */
+.Rules {
+  background-color: #130901;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.R-head {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  /* text-align: center; */
+  font-size: 2vw;
+  padding: 2%;
+}
+
+.R-grid-container {
+  display: grid;
+  height: 35vw;
+  align-content: center;
+  grid-template-columns: auto auto;
+  grid-gap: 5%;
+  background-color: #130901;
+}
+
+/* @media (max-width: 600px) {
+  .R-grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (min-width: 800px) {
+  .R-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+} */
+
+.R-do {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0 0 3% 15%;
+  padding: 1%;
+  font-size: 1.2vw;
+}
+.R-dont {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0 15% 3% 0;
+  padding: 1%;
+  font-size: 1.2vw;
+}
+
+/* .R-do {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("../pics/facilities/do.png");
+  background-size: 100px 30px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.R-dont {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("../pics/facilities/dont.png");
+  background-size: 100px 30px;
+  background-repeat: no-repeat;
+  position: relative;
+} */
+
+/*---------------------------------------------------------------------- facilities */
+.FA {
+  margin: 3%;
+}
+.FA-head {
+  padding: 2%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2vw;
+}
+
+.FA-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 3%;
+  background-color: #fff;
+  padding: 3% 10% 0 10%;
+}
+@media (max-width: 600px) {
+  .FA-grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3%;
+  }
+}
+@media (min-width: 800px) {
+  .FA-grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.FA-grid-container > div {
+  background-color: #fff;
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  margin: 3%;
+  border-radius: 10px;
+
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 5px 12px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
+}
+.FA-grid-container > div :hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s;
+}
+.FA-i6 {
+  font-size: 2vw;
+  text-align: center;
+  padding-top: 40%;
+  color: rgb(55, 117, 233);
+}
+.FA-F-icons-wifi {
+  margin: 8% 0 10% 0;
+  width: 25%;
+}
+.FA-F-icons-finger {
+  margin: 8% 0 10% 0;
+  width: 25%;
+}
+.FA-F-icons-washing {
+  margin: 8% 0 10% 0;
+  width: 25%;
+}
+.FA-F-icons-hotw {
+  width: 25%;
+  margin: 8% 0 10% 0;
+}
+.FA-F-icons-cctv {
+  margin: 8% 0 10% 0;
+  width: 15%;
+}
+.FA-F-info {
+  font-family: "Montserrat", sans-serif;
+
+  padding: 5%;
+  font-size: 1.2vw;
+}
+.FA-link {
+  text-decoration: none;
+  color: rgb(59, 59, 255);
+}
+/* ------------------------------------------------------main 1-------- */
+@font-face {
+  font-family: MADE Kenfolg;
+  src: url(MADE\ Kenfolg\ PERSONAL\ USE.otf);
+}
+.M {
+  display: flex;
+  margin: 10% 0 10% 0;
+}
+.M-c {
+  width: 60%;
+  height: 30vw;
+  border-radius: 50%;
+  background-color: rgb(97, 241, 97);
+  margin-left: 33%;
+  margin-top: -75%;
+}
+.M-hh {
+  margin-left: 3%;
+  color: rgb(77, 245, 77);
+}
+.M-s-head {
+  font-size: 4vw;
+}
+.M-head {
+  margin-bottom: 5%;
+  color: #000;
+  padding: 1% 0 0 20%;
+  font-size: 4.5vw;
+  font-family: MADE Kenfolg;
+  letter-spacing: 5px;
+}
+
+.M-img {
+  margin: -5% 15% 0 12%;
+  width: 73%;
+  height: 35vw;
+  border-radius: 50%;
+  /* border: 2px solid rgb(97, 241, 97); */
+}
+.M-info {
+  font-size: 1.1vw;
+  margin: 0 0 0 20%;
+}
+.M-i-head {
+  font-family: MADE Kenfolg;
+}
+.M-btn {
+  width: 35%;
+  height: 35px;
+  margin: 6% 0 0 20%;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(125, 248, 125);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(44, 44, 44);
+  border: 2px solid rgb(125, 248, 125);
+}
+/* .M-btn:hover {
+  -moz-transform: scale(2);
+  -webkit-transform: scale(2);
+  -o-transform: scale(2);
+  -ms-transform: scale(2);
+  transform: scale(2);
+  transition: 0.5s;
+} */
+/* -----------------------------------------------------Footer-------------------- */
+
+.Fo {
+  margin-top: -17%;
+  left: 0;
+  right: 0;
+  /* margin-bottom: 10%; */
+}
+
+.Fo-grid-container {
+  margin-top: -6%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  background: rgb(17, 242, 46);
+  background: linear-gradient(
+    90deg,
+    rgba(17, 242, 46, 1) 0%,
+    rgba(142, 209, 252, 1) 0%,
+    rgba(77, 245, 77, 1) 90%
+  );
+}
+
+.Fo-grid-container > div {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(192, 137, 137, 0);
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 48px;
+  padding-left: 10%;
+}
+.Fo-grid-container > div > a {
+  text-decoration: none;
+  color: #000;
+}
+.Fo-img {
+  width: 30%;
+  margin-left: 15%;
+}
+.Fo-f-info {
+  margin-left: 15%;
+  font-size: 1rem;
+}
+.Fo-df {
+  margin-top: -2%;
+  background: rgb(17, 242, 46);
+  background: linear-gradient(
+    90deg,
+    rgba(17, 242, 46, 1) 0%,
+    rgba(142, 209, 252, 1) 0%,
+    rgba(77, 245, 77, 1) 90%
+  );
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 5%;
+}
+.Fo-l {
+  width: 90%;
+  background-color: #130901;
+  border-left: #130901;
+}
+.Manoj {
+  color: #000;
+  text-decoration: none;
+}
+
+/* ------------------------------------------Hostel community----------- */
+.Hc {
+  padding: 0 1% 0 1%;
+  display: flex;
+}
+.Hc-head {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2vw;
+}
+.Hc-img {
+  margin: 20% 0 0 5%;
+  border-radius: 10px;
+  width: 80%;
+  border: 1px solid #000;
+}
+/* .Hc-img:hover {
+  -moz-transform: scale(1.5) translate(-200px, 0px);
+  -webkit-transform: scale(1.5) translate(-200px, 0px);
+  -o-transform: scale(1.5) translate(-200px, 0px);
+  -ms-transform: scale(1.5) translate(-200px, 0px);
+  transform: scale(1.5) translate(-200px, 0px);
+  transition: 1s;
+} */
+.Hc-ib {
+  margin: 0 0 10% 10%;
+  margin-top: -60%;
+  width: 80%;
+  height: 21vw;
+  border-radius: 10px;
+  border: 5px solid #4df54d;
+}
+.Hc-info {
+  padding: 10% 15% 0 10%;
+  font-family: "Montserrat", sans-serif;
+}
+.Hc-msg {
+  display: flex;
+  flex-direction: row;
+}
+.Hc-msg-icon1 {
+  width: 7%;
+}
+.Hc-msg-icon2 {
+  width: 10%;
+}
+.Hc-m-p {
+  font-family: "Montserrat", sans-serif;
+  padding: 0 10% 0 10%;
+}
+.Hc-btn {
+  font-family: "Montserrat", sans-serif;
+  background: rgb(163, 243, 143);
+  border: none;
+  width: 10%;
+  color: #000;
+  font-weight: 500;
+  height: 35px;
+  border-radius: 5px;
+  margin: 2% 0 0 5%;
+  cursor: pointer;
+}
+.Hc-btn:hover {
+  background: rgb(129, 236, 102);
+}
+.HostelCommittee {
+  font-family: "Montserrat", sans-serif;
+  padding: 0 4% 4% 4%;
+  margin: 5% 0 0 0;
+}
+.Hostelc-head {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.Hostelc-b {
+  color: crimson;
+  text-align: center;
+}
+.HostelCommittee > p {
+  text-align: center;
+  margin: 3%;
+}
+.Hostelc-p1-1 {
+  margin: 0 0 0 40%;
+}
+.Hostelc-p1 {
+  width: 30%;
+  border-radius: 10px;
+}
+.Hostelc-p2 {
+  width: 50%;
+  border-radius: 10px;
+}
+.Hostelc-p3 {
+  width: 50%;
+  border-radius: 10px;
+}
+.Hostelc-pics {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 0 20%;
+}
+/* --------------------------contact------------------------- */
+
+.Contact {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 0 10% 0 10%;
+  margin: 10% 0 0 0;
+}
+.Contact-head {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.Contact-info {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.Contact-info-1 {
+  margin: 0%;
+}
+.Contact-info-2 {
+  margin: 0 0% 0 10%;
+}
+.Contact-info-2 > h3 > a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* -------------------------------drawer--------------- */
+.dropbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 6px;
+  font-size: 16px;
+  border: none;
+  margin-top: 5%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 10;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #c0baba;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 800px) {
+  /* For tablets: */
+}
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .M {
+    margin: 30% 0 20% 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .M-head {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    padding-left: 10%;
+  }
+  .M-s-head {
+    font-size: 2.5rem;
+    margin-bottom: 3%;
+  }
+  .M-hh {
+    margin-top: 3%;
+    margin-left: 0%;
+    font-size: 2.5rem;
+  }
+  .M-info {
+    font-size: 0.7rem;
+    margin: 0% 10% 0 10%;
+    padding-right: 30%;
+  }
+  .M-c {
+    margin-top: -53%;
+    width: 79%;
+    height: 12rem;
+    margin-left: 16%;
+    border-radius: 15px;
+    background-color: #13090100;
+    border: 4px solid #4df54d;
+  }
+  .M-img {
+    margin: 13% 0 4% 10%;
+    width: 80%;
+    height: 12rem;
+    border-radius: 15px;
+  }
+  .M-btn {
+    margin: 10% 0 5% 10%;
+    height: 2rem;
+  }
+
+  /* -------------Rules------------- */
+  .R-head {
+    font-size: 1.5rem;
+  }
+  .R-grid-container {
+    margin: 5% 0 5% 0;
+    width: 100%;
+    height: fit-content;
+  }
+  .R-do {
+    font-size: 0.6rem;
+  }
+  .R-do > ul {
+    padding: 0 10% 0 20%;
+  }
+  .R-dont {
+    font-size: 0.6rem;
+  }
+  .R-dont > ul {
+    padding: 0 10% 0 20%;
+  }
+  /* --------------------facilities------------- */
+
+  .FA {
+    margin: 0 0 15% 0;
+  }
+  .FA-head {
+    font-size: 1.5rem;
+  }
+  .FA-F-info {
+    font-size: 0.7rem;
+  }
+  .FA-i6 {
+    font-size: 1rem;
+  }
+  .FA-F-icons-washing {
+    width: 40%;
+    margin: 20% 0 10% 0;
+  }
+  .FA-F-icons-hotw {
+    width: 35%;
+    margin-bottom: 25%;
+  }
+  .FA-F-icons-cctv {
+    width: 30%;
+    margin-bottom: 10%;
+  }
+  .FA-F-icons-finger {
+    width: 45%;
+  }
+  .FA-F-icons-wifi {
+    width: 40%;
+  }
+  /* ---------------Footer----------- */
+
+  .Fo {
+    margin-top: 10%;
+  }
+  .Fo-grid-container {
+    padding: 5px;
+  }
+  .Fo-grid-container > div {
+    font-size: 0.6rem;
+  }
+  .Fo-f-info {
+    font-size: 0.6rem;
+  }
+  .Fo-img {
+    width: 60%;
+  }
+  .Fo-df {
+    font-size: 0.8rem;
+  }
+  /* --------------------hostel committee------ */
+
+  .Hc-head {
+    font-size: 1.5rem;
+  }
+  .Hc {
+    display: flex;
+    margin: 5% 0 5% 0;
+    flex-direction: column;
+  }
+  .Hc-img {
+    margin: 10% 0 0 5%;
+  }
+  .Hc-ib {
+    height: 12rem;
+  }
+  .Hc-info {
+    padding: 5%;
+  }
+  .Hc-msg-icon1 {
+    width: 15%;
+  }
+  .Hc-msg-icon2 {
+    width: 25%;
+  }
+  .Hc-m-p {
+    font-size: 0.7rem;
+    font-family: "Montserrat", sans-serif;
+    padding: 0 5% 0 5%;
+  }
+  .Hc-btn {
+    font-family: "Montserrat", sans-serif;
+    background: rgb(163, 243, 143);
+    border: none;
+    width: 30%;
+    color: #000;
+    font-weight: 500;
+    height: 35px;
+    border-radius: 5px;
+    margin: 5% 0 0 5%;
+    cursor: pointer;
+  }
+  .Hostelc-head {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #000;
+    margin: 20% 0 15% 0;
+  }
+  .Hostelc-p1-1 {
+    margin: 0 0 0 30%;
+  }
+  .Hostelc-p1 {
+    width: 60%;
+    border-radius: 10px;
+  }
+  .Hostelc-p2 {
+    width: 90%;
+    border-radius: 10px;
+  }
+  .Hostelc-pics > div > p {
+    font-size: 0.8rem;
+  }
+  .Hostelc-p3 {
+    width: 95%;
+    border-radius: 10px;
+  }
+  .Hostelc-pics {
+    display: flex;
+    flex-direction: row;
+    margin: 15% 0 15% 1%;
+  }
+}

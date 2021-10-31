@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Boys hostel</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script>
+      $(function(){
+          $('#footer').load('footer.html');
+          $('#nav').load('nav.html');
+          $('#hc').load('hostel/hc.html');
+
+      });
+  </script>
+   
+</head>
+<body>
+    <div id="nav"></div>
+    <div>
+        <div class="M">
+          <div class="M-mh">
+            <h1 class="M-head">
+              <span class="M-s-head">Kalpatharu</span> Boys
+              <span class="M-hh">Hostel</span>
+            </h1>
+            <p class="M-info">
+              <span class="M-i-head">Welcome</span> to <br /> Kalpatharu Boy's
+              Hostel with most affordable Rooms
+              <br /> comparing to offside the campus
+            </p>
+            <button class="M-btn">Apply</button>
+          </div>
+          <div>
+            <img class="M-img" src="pics/mhostel1.jpg" />
+            <div class="M-c"></div>
+          </div>
+        </div>
+      </div>
+      <div id="hc"></div>
+      <div id="footer"></div>
+</body>
+</html>
