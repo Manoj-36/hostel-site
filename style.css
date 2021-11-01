@@ -23,18 +23,15 @@
 #loading-image {
   position: absolute;
   top: 35%;
-  left: 45%;
+  /* left: 45%; */
   z-index: 100;
 }
 
-/* .center {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-} */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .load {
   background-color: black;
@@ -857,5 +854,10 @@ td {
     top: 35%;
     left: 25%;
     z-index: 100;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
