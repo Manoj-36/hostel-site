@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../hostel/blocks.css">
-    <!-- <link rel="stylesheet" href="../nav.css">
-    <link rel="stylesheet" href="../style.css"> -->
+    <link rel="stylesheet" href="blocks.css">
+    <link rel="stylesheet" href="../nav.css">
+    <link rel="stylesheet" href="../style.css">
     <title>Block 1</title>
     <script
     src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -14,8 +14,10 @@
     crossorigin="anonymous"></script>
     <script>
         $(function(){
-            $('#footer').load('../footer.html');
-            $('#nav').load('../nav.html');
+            $('#footer').load('footer.html');
+            $('#nav').load('nav.html');
+            $('#facilities').load('facilities.html');
+            $('#sharing').load('sharing.html');
         });
     </script>
 </head>
@@ -24,6 +26,8 @@
     <div class="B1">
         <h5 class="B1-head">Hemavathi block</h5>
       </div>
+      <div id="sharing"></div>
+      <div id="facilities"></div>
       <div id="footer"></div>
 </body>
 </html>
