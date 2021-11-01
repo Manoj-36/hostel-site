@@ -1,0 +1,16 @@
+.underc {
+  width: 100%;
+  height: auto;
+}
+.uc {
+  margin-top: 5%;
+}
+@media only screen and (max-width: 500px) {
+  .uc {
+    margin-top: 50%;
+  }
+  .underc {
+    width: 100%;
+    height: auto;
+  }
+}
