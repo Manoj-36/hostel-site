@@ -382,7 +382,7 @@ td {
   }
   th,
   td {
-    display: none;
+    /* display: none; */
   }
   .Mess-c-students {
     display: flex;
