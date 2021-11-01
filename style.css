@@ -685,15 +685,18 @@ td {
     margin: 5% 0 5% 0;
     width: 100%;
     height: fit-content;
+    grid-template-columns: repeat(1, 1fr);
   }
   .R-do {
     font-size: 0.6rem;
+    margin: 5%;
   }
   .R-do > ul {
-    padding: 0 10% 0 20%;
+    padding: 0 10% 0 15%;
   }
   .R-dont {
     font-size: 0.6rem;
+    margin: 5%;
   }
   .R-dont > ul {
     padding: 0 10% 0 20%;
@@ -717,18 +720,20 @@ td {
     margin: 20% 0 10% 0;
   }
   .FA-F-icons-hotw {
-    width: 35%;
-    margin-bottom: 25%;
+    width: 50%;
+    margin: 15% 0 5% 0;
   }
   .FA-F-icons-cctv {
-    width: 30%;
-    margin-bottom: 10%;
+    width: 50%;
+    margin: 15% 0 5% 0;
   }
   .FA-F-icons-finger {
     width: 45%;
+    margin: 15% 0 5% 0;
   }
   .FA-F-icons-wifi {
-    width: 40%;
+    width: 50%;
+    margin: 15% 0 5% 0;
   }
   /* ---------------Footer----------- */
 
