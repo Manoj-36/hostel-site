@@ -23,7 +23,7 @@
 #loading-image {
   position: absolute;
   top: 35%;
-  /* left: 45%; */
+  left: 45%;
   z-index: 100;
 }
 
@@ -753,7 +753,7 @@ td {
     width: 60%;
   }
   .Fo-df {
-    font-size: 0.8rem;
+    font-size: 0.5rem;
   }
   /* --------------------hostel committee------ */
 
