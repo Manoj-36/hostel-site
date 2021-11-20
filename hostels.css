@@ -211,6 +211,7 @@ body {
   }
   .card {
     width: 80%;
+    height: fit-content;
     margin: 3% 0 0 10%;
   }
 }
