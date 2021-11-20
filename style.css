@@ -471,12 +471,16 @@
   border-radius: 10px;
   border: 5px solid #4df54d;
 }
+.Hc-msg-principal {
+  font-size: 2rem;
+}
 .Hc-info {
   padding: 10% 15% 0 10%;
   margin: 20% 0 30% 0;
   font-family: "Montserrat", sans-serif;
 }
 .Hc-msg {
+  margin: 5% 0 0 0;
   display: flex;
   flex-direction: row;
 }
@@ -486,9 +490,13 @@
 .Hc-msg-icon2 {
   width: 10%;
 }
-.Hc-m-p {
+.Hc-m-p1 {
   font-family: "Montserrat", sans-serif;
-  padding: 0 10% 0 10%;
+  padding: 0 10% 0 5%;
+}
+.Hc-m-p2 {
+  font-family: "Montserrat", sans-serif;
+  padding: 0 10% 0 5%;
 }
 .Hc-btn {
   font-family: "Montserrat", sans-serif;
@@ -777,21 +785,32 @@ td {
     margin: 0 0 0 0;
   }
   .Hc-msg-icon1 {
-    width: 15%;
+    width: 10%;
   }
   .Hc-msg-icon2 {
-    width: 25%;
+    width: 15%;
   }
-  .Hc-m-p {
+  .Hc-msg-principal {
+    font-size: 1rem;
+  }
+  .Hc-msg {
+    margin: 10% 0 0 0;
+  }
+  .Hc-m-p1 {
     font-size: 0.7rem;
     font-family: "Montserrat", sans-serif;
-    padding: 0 5% 0 5%;
+    padding: 0 10% 0 10%;
+  }
+  .Hc-m-p2 {
+    font-size: 0.7rem;
+    font-family: "Montserrat", sans-serif;
+    padding: 0 5% 0 0%;
   }
   .Hc-btn {
     font-family: "Montserrat", sans-serif;
     background: rgb(163, 243, 143);
     border: none;
-    width: 30%;
+    width: fit-content;
     color: #000;
     font-weight: 500;
     height: 35px;
